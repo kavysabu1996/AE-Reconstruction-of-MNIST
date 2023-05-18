@@ -4,7 +4,7 @@ The `MNIST` dataset is a popular datast of handwritten digits. It includes 60,00
 
 ### Try this implementation
 
-I've added the trained AutoEncoder model to `src` directory. run.py is a python script such that you can check my model authenticity. For this you need to clone this repo and install all the requirements. Requirements are `numpy, TensorFlow and matplotlib`. After that open your terminal and check into repo directory and enter the given line of code.
+I've added the trained AutoEncoder model to `src` directory. `run.py` is a script for you to check my model authenticity. For this you need to clone this repo and install all the requirements. Requirements are `numpy, TensorFlow and matplotlib`. After that open your terminal, check into repo directory and enter the given command-line instruction.
 
 ```
 python3 run.py --idx index_number
