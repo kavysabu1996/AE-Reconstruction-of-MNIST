@@ -1,20 +1,19 @@
-# AE-Reconstruction-of-MNIST
+# Reconstruction of MNIST data with AutoEncoder - TensorFlow
 
-The MNIST dataset is a popular datast of handwritten digits. It includes 60,000 samples for training machine learning models, and 10,000 samples for evaluating and testing the performance of these models.
+The `MNIST` dataset is a popular datast of handwritten digits. It includes 60,000 samples for training machine learning models, and 10,000 samples for evaluating and testing the performance of these models. In this project I trained a `AutoEncoder` model with `MNIST` dataset, such that it can reconstruct the handwritten digits. Used `Conv2D`, `Conv2DTranspose`, `Maxpool2D`, and `Upsampling2D` layers to build my model. Training is done using `GPU P100` from kaggle.
 
-I've trained a AutoEncoder model to generate handwritten digits. 
+### Try this implementation
 
-You can also try this
+**Requirements** : numpy, TensorFlow and matplotlib
 
-### Requirements
-- numpy, TensorFlow and matplotlib
-
-mnist has 10000 test samples. So you can select any index_number varying from 0 to 9999
+mnist has 10000 test samples. So you can select any index_number varying from 0 to 9999.
 
 ```
 python3 run.py --idx index_number
 ```
+**example :**
 
 ```
 python3 run.py --idx 993
 ```
+![sample]('src/Figure_1.png')
