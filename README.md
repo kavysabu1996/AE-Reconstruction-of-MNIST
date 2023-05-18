@@ -17,5 +17,4 @@ mnist has 10000 test samples. So you can select any index_number varying from 0 
 python3 run.py --idx 993
 ```
 **output**
-
 ![sample](src/Figure_1.png)
