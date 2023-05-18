@@ -5,7 +5,7 @@ import argparse
 import numpy as np
 
 (_,_),(x_test,_) = mnist.load_data()
-model = tf.keras.models.load_model('mnist_reconstruction_AE.h5')
+model = tf.keras.models.load_model('src/mnist_reconstruction_AE.h5')
 x_test  = x_test/255 
 
 def make_prediction(idx):
