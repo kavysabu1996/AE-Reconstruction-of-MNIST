@@ -16,4 +16,4 @@ python3 run.py --idx index_number
 ```
 python3 run.py --idx 993
 ```
-![sample]('src/Figure_1.png')
+![sample]('/src/Figure_1.png')
