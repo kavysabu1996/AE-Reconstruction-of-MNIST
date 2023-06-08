@@ -27,4 +27,5 @@ python3 run.py --idx 993
 ![sample](src/Figure_1.png)
 
 **reference**
-[https://blog.keras.io/building-autoencoders-in-keras.html](https://blog.keras.io/building-autoencoders-in-keras.html)
+
+- [https://blog.keras.io/building-autoencoders-in-keras.html](https://blog.keras.io/building-autoencoders-in-keras.html)
